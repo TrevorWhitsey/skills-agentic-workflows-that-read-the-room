@@ -110,3 +110,5 @@ After loading the matching workflow prompt or skill, follow it directly:
 - Add skills or agent plugins requested by the user (`skills:` / `plugins:` frontmatter, never on-the-fly installs): `.github/aw/skills.md`
 
 When the task involves OTEL, OTLP, traces, observability backends, or telemetry-driven analysis, also read and follow `skills/otel-queries/SKILL.md` after loading the matching workflow prompt or skill.
+
+When creating or editing agentic workflow files, do not compile them. Only create or update the markdown workflow file.
