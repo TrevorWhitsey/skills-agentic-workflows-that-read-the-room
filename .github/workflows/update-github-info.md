@@ -39,4 +39,4 @@ Use the web-fetch tool to read:
 
 Select recent items and workflows that provide practical value to developers. Update `site/content/github-info.md` with concise, factual summaries that fit Mona's editorial angle. Cite the relevant GitHub Blog, Changelog, or Awesome Copilot source link for every new item. Do not invent details or rewrite unrelated sections; leave the file unchanged if there is no worthwhile update.
 
-When you make a meaningful update, propose only the resulting content change through the configured create-pull-request safe output. Open one non-draft pull request and request Mona (`mona`) as reviewer. Never write changes directly to the default branch.
+When you make a meaningful update, propose only the resulting content change through the configured create-pull-request safe output. Open one non-draft pull request and request Mona (`mona`) as reviewer. Include this short diagnostic line in the pull request description: `DEBUG: Mona's source scan has landed.` Never write changes directly to the default branch.
